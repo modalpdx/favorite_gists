@@ -1,0 +1,19 @@
+/* CS290, Winter 2015 - Assignment 3.2, Erik Ratcliffe */
+
+#favorites {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+label {
+    display: block;
+}
+
+table {
+    margin: 20px 0;
+}
+
+td {
+    padding: 5px;
+}
+

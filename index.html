@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- CS290, Winter 2015 - Assignment 3.2, Erik Ratcliffe -->
+  <meta charset="utf-8">
+  <title>Github Gists - CS290, Erik Ratcliffe, Assignment 3.2</title>
+  <script src="functions.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="favorites">
+  <h1>Favorite Gists</h1>
+</section>
+
+<section id="search">
+  <h1>Search</h1>
+  <form action="#" name="gist_form" id="gist_form" method="get">
+    <label>Pages: 
+      <select name="pages" id="pages">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </label>
+    <label><input type="checkbox" name="lang" value="Python"> Python</label>
+    <label><input type="checkbox" name="lang" value="JSON"> JSON</label>
+    <label><input type="checkbox" name="lang" value="JavaScript"> JavaScript</label>
+    <label><input type="checkbox" name="lang" value="SQL"> SQL</label>
+    <input type="submit" value="Search" onclick="buildPage();">
+  </form>
+</section>
+
+</body>
+</html>
