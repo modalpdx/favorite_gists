@@ -17,7 +17,7 @@ After making your selections, hit the search button and a listing of gists that 
 ##Options for running this
 
 There are two ways this can be run: either via the Internet or locally
-using the "gist#" files included in this repo. Either way is fine as they
+using the "gists#" files included in this repo. Either way is fine as they
 both provide similar JSON source material to the query. There is commented
 code in the getUrl() function in functions.js that needs to be uncommented
 to run locally. Comment out the two lines of code below "FOR PRODUCTION"
